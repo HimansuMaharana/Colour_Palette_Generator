@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Palette Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="notebook-page">
+        <header>
+            <h1>Color Palette Generator</h1>
+            <div class="controls">
+                <select id="mode">
+                    <option value="triadic">Triadic</option>
+                    <option value="pentadic">Pentadic</option>
+                </select>
+                <button id="generate">Generate</button>
+                <button id="downloadPNG">Download PNG</button>
+            </div>
+        </header>
+        <div class="palette">
+            </div>
+        <div class="contrast-checker">
+          <h2>Contrast Checker</h2>
+          <div class="contrast-inputs">
+            <label for="color1">Color 1:</label>
+            <input type="color" id="color1">
+            <label for="color2">Color 2:</label>
+            <input type="color" id="color2">
+          </div>
+          <div class="contrast-result">
+            <p id="contrast-ratio">Contrast Ratio: -</p>
+            <p id="contrast-level">Level: -</p>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
