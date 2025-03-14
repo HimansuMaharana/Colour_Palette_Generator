@@ -3,7 +3,7 @@
 The **Color Palette Generator** is a web application that allows users to generate triadic and pentadic color palettes. The app also includes a contrast checker to ensure accessibility for web designs by displaying the contrast ratio and level between two selected colors. The generated color palettes can be downloaded as PNG files.
 
 ## 🖼️ Preview
-![Color Palette Generator Screenshot](cpg.png)  
+![Color Palette Generator Screenshot](colorpalette.png)  
 
 ## 🚀 Features
 - **Triadic & Pentadic Color Modes**: Choose between two color schemes to generate palettes.
